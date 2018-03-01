@@ -10,8 +10,9 @@ $(document).ready(function() {
  */
 function initializePage() {
 	console.log("Page ready");
- 	initGestures();
- 	initRSVPForm();
+	initGestures();
+	initRSVPForm();
+	initCamera();
 }
 
 // init jQuery gestures  
